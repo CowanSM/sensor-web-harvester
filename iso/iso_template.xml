@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmi:MI_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmi="http://www.isotc211.org/2005/gmi">
+	<gmd:fileIdentifier>
+		<gco:CharacterString></gco:CharacterString> <!-- unique id for station; can be urn -->
+	</gmd:fileIdentifier>
+	<gmd:contact> <!-- notes the GLOS db contact point; static -->
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>GLOS DMAC</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>Great Lakes Observing System</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>(734) 332-6113</gco:CharacterString>
+							</gmd:voice>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>229 Nickels Arcade</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Ann Arbor</gco:CharacterString>
+							</gmd:city>
+							<gmd:administrativeArea>
+								<gco:CharacterString>Michigan</gco:CharacterString>
+							</gmd:administrativeArea>
+							<gmd:postalCode>
+								<gco:CharacterString>48104</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>dmac@glos.us</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource id="glos_url">
+							<gmd:linkage>
+								<gmd:URL>http://glos.us</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+		<gmd:role>
+		<gmd:CI_RoleCode
+		codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/CodeList/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+		</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>	<!-- distributor contact info -->
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date></gco:Date>	<!-- usually just the current date when doc was written -->
+	</gmd:dateStamp>
+	<gmd:metadataStandardName> <!-- static -->
+		<gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion> <!-- static -->
+		<gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString></gco:CharacterString> <!-- id of station/buoy/etc -->
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:DateTime></gco:DateTime>	<!-- datetime of last update, usually just doc date -->
+							</gmd:date>
+							<gmd:dateType gco:nilReason="unknown"/>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString></gco:CharacterString>		<!-- description/abstract of station/buoy -->
+			</gmd:abstract>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords> <!-- list of sensors, phenomena monitored by station; each sensor/phenomena should have its own 'keyword' element -->
+					<gmd:keyword>
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:language> <!-- static -->
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:topicCategory> <!-- static -->
+				<gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent> 
+				<gmd:EX_Extent>
+					<gmd:geographicElement> <!-- should contain the lat and lon for each station (or its boundaries if in an area) -->
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal></gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal></gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal></gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal></gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent> <!-- datetimes for the start/end of the station; leave endposition as 'now' if the buoy is currently active -->
+							<gmd:extent>
+								<gml:TimePeriod id=""> <!-- needs a random string for id, as long as it is unique across the doc -->
+									<gml:beginPosition></gml:beginPosition>
+									<gml:endPosition indeterminatePosition="now"/>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:verticalElement>
+						<gmd:EX_VerticalExtent> <!-- range of depths the station monitors -->
+							<gmd:minimumValue>
+								<gco:Real>0</gco:Real>
+							</gmd:minimumValue>
+							<gmd:maximumValue>
+								<gco:Real>0</gco:Real>
+							</gmd:maximumValue>
+							<gmd:verticalCRS gco:nilReason="missing"/>
+						</gmd:EX_VerticalExtent>
+					</gmd:verticalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:identificationInfo> <!-- services used to gather the data from where-ever it is hosted; examples are SOS, FTP, etc.. The child element 'srv:containsOperations' can be repeated for each service that can be used to gather the data. -->
+		<srv:SV_ServiceIdentification>
+		</srv:SV_ServiceIdentification>
+	</gmd:identificationInfo>
+	<gmd:contentInfo> <!-- repeat the dimension element for each sensor/phenomena monitored by the station; if the type of the value for the phenomena is known remove the 'nilReason' attribute and add it's type (ie FLOAT, INT, DOUBLE, etc)-->
+		<gmi:MI_CoverageDescription>
+			<gmd:attributeDescription gco:nilReason="unknown"></gmd:attributeDescription>
+			<gmd:contentType gco:nilReason="unknown"></gmd:contentType>
+		</gmi:MI_CoverageDescription>
+		<gmd:dimension>
+                <gmd:MD_Band>
+                    <gmd:sequenceIdentifier>
+                        <gco:MemberName>
+                            <gco:aName>
+                                <gco:CharacterString></gco:CharacterString>
+                            </gco:aName>
+                            <gco:attributeType gco:nilReason="unknown"/>
+                        </gco:MemberName>
+                    </gmd:sequenceIdentifier>
+                    <gmd:descriptor>
+                        <gco:CharacterString></gco:CharacterString>
+                    </gmd:descriptor>
+                </gmd:MD_Band>
+            </gmd:dimension>
+	</gmd:contentInfo>
+</gmi:MI_Metadata>
